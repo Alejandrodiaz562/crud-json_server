@@ -1,44 +1,19 @@
 {
-    "users": [
-      {
-        "name": "Alejandro",
-        "lastName": "Diaz",
-        "id": 1
-      },
-      {
-        "name": "Luiz",
-        "lastName": "Vanegas",
-        "id": 2
-      },
-      {     
-        "name": "Camila",
-        "lastName": "Alzate",
-        "id": 3
-      },
-      {
-        "name": "Alejandro",
-        "lastName": "Diaz",
-        "id": 1
-      },
-      {
-        "name": "Alejandro",
-        "lastName": "Diaz",
-        "id": 1
-      },
-      {
-        "name": "Alejandro",
-        "lastName": "Diaz",
-        "id": 1
-      },
-      {
-        "name": "Alejandro",
-        "lastName": "Diaz",
-        "id": 1
-      },
-      {
-        "name": "Alejandro",
-        "lastName": "Diaz",
-        "id": 1
-      }
-    ]
-  }
+  "users": [
+    {
+      "name": "bartolomeo",
+      "lastName": "allen",
+      "id": 1
+    },
+    {
+      "name": "klark",
+      "lastName": "kent",
+      "id": 2
+    },
+    {
+      "name": "bruce",
+      "lastName": "wayne",
+      "id": 3
+    }
+  ]
+}
