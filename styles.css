@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Delicious Handrawn', cursive;
+}
+
+body{
+    background-color: #242c3b;
+}
+
+.crud_container{
+    width: 35%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    color: white;
+   
+}
+
+.editUsers_container{
+    width: 100%;
+    background-color:#7da6b0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+    margin: 25px 0;
+    border-radius: 10px;
+}
+
+.editUsers_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.input_container input{
+    border: none;
+    padding: 5px;
+    margin-top: 19px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.btnSubmit{
+    padding: 5px 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease all;
+}
+
+.btnSubmit:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.viewUsers_container{
+    background-color: #7da6b0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px 0;
+   
+}
+
+.viewUsers_table{
+    margin-top: 10px;
+}
+
+.viewUsers_table thead tr th{
+    text-align: center;
+    padding: 5px 15px;
+   
+}
+
+.name, .lastName, .actions{
+    padding: 5px;
+    text-align: center;
+   
+}
+
+.edit, .delete{
+    background-color: lightseagreen;
+    padding: 5px 10px;
+    margin: 0 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease all;
+}
+
+.edit:hover, .delete:hover{
+   background-color: black;
+   color: white;
+}
+
+
+

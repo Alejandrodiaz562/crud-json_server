@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CRUD API REST</title>
+</head>
+<body>
+    <div class="crud_container">
+        <h1 class="title">CRUD JSON-SERVER</h1>
+        <div class="editUsers_container">
+            <h2 class="editUsers_title">Agregar Usuario</h2>
+            <form action="" class="editUsers_form">
+                <div class="input_container">
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" id="name" placeholder="Pepito" required>
+                    <br>
+                    <label for="lastName">Apellido</label>
+                    <input type="text" name="lastName" id="lastName" placeholder="Perez" required>
+                </div>
+                <br>
+                <input class="btnSubmit" type="submit" value="Enviar">
+                <input type="hidden" name="id">
+            </form>
+        </div>
+        <div class="viewUsers_container">
+            <h2 class="viewUsers_title">Ver usuarios</h2>
+            <table class="viewUsers_table">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
